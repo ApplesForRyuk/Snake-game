@@ -13,4 +13,7 @@ class cube(object):
 
     def move(self,dirnx,dirny):
         pass
+
+    def draw(self,surface,eyes=False):
+        pass
     
