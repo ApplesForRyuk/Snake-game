@@ -18,6 +18,15 @@ class cube(object):
         pass
 
 class snake(object):
+    body = []
+    turns = {}
+    def __init__(self,color,pos):
+        self.color = color
+        self.head = cube(pos)
+        self.body.append(self.head)
+        self.dirnx = 0
+        self.dirny = 1
+
     def __init__(self,color,pos) :
         pass
 
@@ -33,4 +42,11 @@ class snake(object):
     def draw(self,surface):
         pass
     
+    def drawGrid(w,rows,surface):
+        sizeBetween = w // rows
+        x = 0
+        y = 0
+        
+
+
     
