@@ -64,7 +64,7 @@ class snake(object):
                 c.move(turn[0],turn[1])
                 if i == len(self.body)-1:
                     self.turns.pop(p)
-                    #when reaching the edge of the screen - redirect the turn
+                    #when reaching the edge of the screen - setting the movement
                 else:
                     if c.dirnx == -1 and c.pos[0] <= 0: c.pos = (c.rows-1, c.pos[1])
                     elif c.dirnx == 1 and c.pos[0] >= c.rows-1: c.pos = (0,c.pos[1])
