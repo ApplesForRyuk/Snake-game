@@ -87,6 +87,18 @@ class snake(object):
         sizeBetween = w // rows
         x = 0
         y = 0
+
+    def redrawWindow(surface):
+        pass
+
+    def randomCubeSnack(row,items):
+        pass
+
+    def message_box(subject,content):
+        pass
+
+    
+
         
 
 
