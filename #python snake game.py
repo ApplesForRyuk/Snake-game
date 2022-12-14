@@ -97,7 +97,19 @@ class snake(object):
     def message_box(subject,content):
         pass
 
-    
+    def main():
+        width = 500
+        rows = 20
+
+        cube.rows = rows
+        cube.width = width
+
+        pass
+
+
+    main()
+
+
 
         
 
